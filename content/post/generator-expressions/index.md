@@ -6,7 +6,7 @@ date: 2023-05-14 00:00:00+0000
 categories:
     - Language
 tags:
-    - generators
+    - generator
 ---
 
 Generator Expressions (**genexp**) in Python allow you to iterate over elements one at a time without creating a full list in memory. 

@@ -6,7 +6,7 @@ date: 2023-05-16 00:00:00+0000
 categories:
     - Language
 tags:
-    - decorators
+    - decorator
 ---
 
 In Python, decorators are a way to modify the behavior of a function without changing its source code. 
