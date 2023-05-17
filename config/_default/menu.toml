@@ -32,3 +32,12 @@ url = "https://t.me/pystudy"
 
 [social.params]
 icon = "brand-telegram"
+
+
+[[social]]
+identifier = "rss"
+name = "RSS"
+url = "https://python.study/index.xml"
+
+[social.params]
+icon = "rss"
