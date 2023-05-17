@@ -14,3 +14,12 @@ url = "https://github.com/amerkurev/python-study"
 
 [social.params]
 icon = "brand-github"
+
+
+[[social]]
+identifier = "telegram"
+name = "Telegram"
+url = "https://t.me/pystudy"
+
+[social.params]
+icon = "brand-telegram"
