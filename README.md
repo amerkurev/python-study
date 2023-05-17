@@ -15,6 +15,14 @@ Writing your own post on the Python Study website is very easy! Here's a brief g
 
 That's it! We warmly welcome you as a co-author and valuable member of our team.
 
+## Subscribe to us
+
+We would be delighted if you subscribe to us. This will allow you to receive new posts as soon as they are published, and you won't miss anything interesting! Here are the places where you can subscribe to us:
+
+- [Telegram Channel](https://t.me/pystudy) (the most convenient way)
+- [Twitter](https://twitter.com) (until Musk shuts everything down)
+- [RSS](https://python.study/index.xml) (for old-school people)
+
 ## List of posts
 ### 2023-05
 - [Parameterized Decorators](https://python.study/p/parameterized-decorators/) (posted by [amerkurev](https://github.com/amerkurev/))
