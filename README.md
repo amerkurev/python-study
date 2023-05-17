@@ -24,7 +24,12 @@ We would be delighted if you subscribe to us. This will allow you to receive new
 - [RSS](https://python.study/index.xml) (for old-school people)
 
 ## List of posts
+
 ### 2023-05
 - [Parameterized Decorators](https://python.study/p/parameterized-decorators/) (posted by [amerkurev](https://github.com/amerkurev/))
 - [Union Operators To dict](https://python.study/p/union-operators-to-dict/) (posted by [amerkurev](https://github.com/amerkurev/))
 - [Generator Expressions](https://python.study/p/generator-expressions/) (posted by [amerkurev](https://github.com/amerkurev/))
+
+## License
+
+[MIT](LICENSE)
