@@ -9,7 +9,10 @@ trim_trailing_whitespace = true
 indent_style = space
 indent_size = 2
 
-[{Dockerfile,Makefile,*.Makefile,go.mod,go.sum,*.go,.gitmodules,*.html}]
+[{*.html,*.scss}]
+indent_size = 4
+
+[{Dockerfile,Makefile,*.Makefile,go.mod,go.sum,*.go,.gitmodules}]
 indent_style = tab
 indent_size = 4
 

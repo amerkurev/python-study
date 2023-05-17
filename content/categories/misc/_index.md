@@ -1,5 +1,5 @@
 ---
-title: Misc
+title: Miscellaneous
 description: Posts on various abstract topics about Python
 image:
 
