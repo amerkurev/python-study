@@ -51,8 +51,8 @@ type = "tag-cloud"
 [widgets.homepage.params]
 limit = 10
 
-[[widgets.page]]
-type = "toc"
+#[[widgets.page]]
+#type = "toc"
 
 [opengraph.twitter]
 site = ""
