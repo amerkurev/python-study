@@ -1,6 +1,5 @@
 ---
 title: "Subscribe us"
-date: 2023-05-01
 slug: "subscribe"
 readingTime: false
 

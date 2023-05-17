@@ -1,6 +1,5 @@
 ---
 title: "Write a post"
-date: 2023-05-01
 slug: "writing"
 readingTime: false
 
