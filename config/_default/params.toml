@@ -18,7 +18,7 @@ subtitle = "Study Python in-depth through concise and interesting posts."
 [sidebar.avatar]
 enabled = true
 local = true
-src = "img/python_logo.jpg"
+src = "img/python-logo.jpg"
 
 [article]
 math = false
