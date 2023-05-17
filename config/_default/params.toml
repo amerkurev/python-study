@@ -22,6 +22,7 @@ src = "img/python-logo.jpg"
 
 [article]
 math = false
+toc = false
 readingTime = true
 
 [article.license]
