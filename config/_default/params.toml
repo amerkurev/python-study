@@ -4,7 +4,7 @@ mainSections = ["post"]
 rssFullContent = true
 
 [footer]
-since = 2022
+since = 2023
 customText = ""
 
 [dateFormat]
