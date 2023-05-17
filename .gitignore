@@ -1,6 +1,8 @@
 #Hugo
 public
 resources
+.hugo_build.lock
+assets/jsconfig.json
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can

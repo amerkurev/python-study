@@ -1,14 +1,4 @@
 <div class="article-details">
-    {{ if .Params.Tags }}
-    <header class="article-tags">
-        {{ range (.GetTerms "tags") }}
-            <a href="{{ .RelPermalink }}" {{ with .Params.style }}style="background-color: {{ .background }}; color: {{ .color }};"{{ end }}>
-              {{ .LinkTitle }}
-            </a>
-        {{ end }}
-    </header>
-    {{ end }}
-
     <div class="article-title-wrapper">
         <h2 class="article-title">
             <a href="{{ .RelPermalink }}">
@@ -43,6 +33,15 @@
                 <time class="article-time--reading">
                     {{ T "article.readingTime" .ReadingTime }}
                 </time>
+            </div>
+        {{ end }}
+
+        {{ if .Params.Tags }}
+            <div>
+                {{ partial "helper/icon" "tag" }}
+                {{ range (.GetTerms "tags") }}
+                    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+                {{ end }}
             </div>
         {{ end }}
     </footer>
