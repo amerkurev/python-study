@@ -27,3 +27,17 @@ article.main-article {
         }
     }
 }
+
+form.search-form,
+.search-result,
+.archives-group {
+    max-width: 760px;
+}
+
+.subsection-list {
+    .article-list--tile {
+        article {
+            width: auto;
+        }
+    }
+}
