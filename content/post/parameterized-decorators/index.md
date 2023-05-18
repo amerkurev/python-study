@@ -7,6 +7,11 @@ categories:
     - Language
 tags:
     - decorator
+links:
+  - title: Posted by amerkurev
+    description: https://github.com/amerkurev
+    website: https://github.com/amerkurev
+    image: https://avatars.githubusercontent.com/u/28217522?v=4
 ---
 
 In Python, decorators are a way to modify the behavior of a function without changing its source code. 
@@ -73,5 +78,3 @@ print(get_num())  # The result will be 15
 
 If you want to learn more about the correct way to write decorators, 
 a good article to read is Graham Dumpleton's "[How You Implemented Your Python Decorator is Wrong](https://github.com/GrahamDumpleton/wrapt/blob/develop/blog/01-how-you-implemented-your-python-decorator-is-wrong.md)".
-
-> Posted by [amerkurev](https://github.com/amerkurev/)

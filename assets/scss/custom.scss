@@ -15,3 +15,15 @@
 article.main-article {
     max-width: 760px;
 }
+
+.article-list--compact.links {
+    max-width: 760px;
+
+    article {
+        .article-image {
+            img {
+                border-radius: 50% !important;
+            }
+        }
+    }
+}

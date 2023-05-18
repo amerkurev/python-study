@@ -7,6 +7,11 @@ categories:
     - Language
 tags:
     - generator
+links:
+  - title: Posted by amerkurev
+    description: https://github.com/amerkurev
+    website: https://github.com/amerkurev
+    image: https://avatars.githubusercontent.com/u/28217522?v=4
 ---
 
 Generator Expressions (**genexp**) in Python allow you to iterate over elements one at a time without creating a full list in memory. 
@@ -29,5 +34,3 @@ The entire list of a billion values is never created, so this case does not cons
 
 To improve memory usage and performance, use **genexp** wherever possible and avoid constructing the entire list unnecessarily. 
 For more information about Generator Expressions, refer to [PEP 289](https://peps.python.org/pep-0289/).
-
-> Posted by [amerkurev](https://github.com/amerkurev/)

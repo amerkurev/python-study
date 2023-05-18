@@ -7,6 +7,11 @@ categories:
     - Language
 tags:
     - dict
+links:
+  - title: Posted by amerkurev
+    description: https://github.com/amerkurev
+    website: https://github.com/amerkurev
+    image: https://avatars.githubusercontent.com/u/28217522?v=4
 ---
 
 Let's take a look at the new operators for dict that appeared in Python 3.9 - merge (|) and update (|=) operators.
@@ -57,5 +62,3 @@ d1  # {'a': 2, 'b': 4, 'c': 6}
 In summary, when you need to merge two dicts, you can use the new merge (|) and update (|=) operators. 
 They are more convenient and easier to use than the current ways. 
 For more information about Union Operators To dict, refer to [PEP 584](https://peps.python.org/pep-0584/).
-
-> Posted by [amerkurev](https://github.com/amerkurev/)
