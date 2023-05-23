@@ -3,6 +3,8 @@ mainSections = ["post"]
 # Output page's full content in RSS.
 rssFullContent = false
 
+favicon = "/favicon.png"
+
 [footer]
 since = 2023
 customText = ""
@@ -18,7 +20,7 @@ subtitle = "Study Python in-depth through concise and interesting posts."
 [sidebar.avatar]
 enabled = true
 local = true
-src = "img/python-logo.jpg"
+src = "img/python-logo.png"
 
 [article]
 math = false

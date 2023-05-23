@@ -14,3 +14,7 @@ hasCJKLanguage = false
 
 # Change it to your Disqus shortname before using
 disqusShortname = ""
+
+# Provide your tracking ID in your configuration file
+# Google Analytics 4 (gtag.js)
+googleAnalytics = "G-RTW8ER847W"
