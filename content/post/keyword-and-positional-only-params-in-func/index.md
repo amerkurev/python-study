@@ -19,9 +19,11 @@ Let's consider all three cases in the example function `f`:
 
 ```python
 def f(pos1, pos2, /, pos_or_kwd1, pos_or_kwd2=None, *, kwd1, kwd2):
-    # pos1, pos2 - are Positional-Only
-    # pos_or_kwd1, pos_or_kwd2 - are Positional-or-Keyword
-    # kwd1, kwd2 - are Keyword-Only
+    """
+    pos1, pos2 - are Positional-Only
+    pos_or_kwd1, pos_or_kwd2 - are Positional-or-Keyword
+    kwd1, kwd2 - are Keyword-Only
+    """
     pass
 ```
 
