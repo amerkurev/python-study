@@ -26,6 +26,7 @@ Here are the places where you can subscribe to us:
 ## List of posts
 
 ### 2023-05
+- [Keyword-Only and Positional-Only Parameters in Function](https://python.study/p/keyword-and-positional-only-params-in-func/) (posted by [amerkurev](https://github.com/amerkurev/))
 - [Python Variable Scopes: Understanding Local, Global, and Nonlocal](https://python.study/p/variable-scopes-local-global-nonlocal/) (posted by [amerkurev](https://github.com/amerkurev/))
 - [Parameterized Decorators](https://python.study/p/parameterized-decorators/) (posted by [amerkurev](https://github.com/amerkurev/))
 - [Union Operators To dict](https://python.study/p/union-operators-to-dict/) (posted by [amerkurev](https://github.com/amerkurev/))
