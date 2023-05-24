@@ -39,9 +39,12 @@ The rules for defining these parameters are straightforward:
 Here are some valid calls to this function:
 
 ```python
-f(1, 2, 'a', kwd1='c', kwd2='d')  # pos_or_kwd1 = 'a', pos_or_kwd2 = None
-f(1, 2, 'a', 'b', kwd1='c', kwd2='d')  # pos_or_kwd1 = 'a', pos_or_kwd2 = 'b'
+f(1, 2, 'a', kwd1='c', kwd2='d')
+
+f(1, 2, 'a', 'b', kwd1='c', kwd2='d')
+
 f(1, 2, 'a', pos_or_kwd2='b', kwd1='c', kwd2='d')
+
 f(1, 2, pos_or_kwd1='a', kwd1='c', kwd2='d')
 ```
 
