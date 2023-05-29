@@ -1,6 +1,6 @@
 ---
 title: Union Type Expression
-description: Another useful use of the | operator.
+description: Another useful use of the | operator in Python 3.10.
 slug: union-type-expr-in-python
 date: 2023-05-29 00:00:00+0000
 categories:
@@ -51,7 +51,7 @@ def f(lst: List[Union[int, str]], param: Optional[int]) -> Union[float, str]:
 f([1, 'abc'], None)
 ```
 
-And the same example using Union type expression.
+And the same example using Union type expression:
 ```python
 def f(lst: list[int | str], param: int | None) -> float | str:
     return ''
