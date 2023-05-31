@@ -26,6 +26,7 @@ Here are the places where you can subscribe to us:
 ## List of posts
 
 ### 2023-05
+- [String methods to remove prefixes and suffixes](https://python.study/p/string-methods-to-remove-prefixes-suffixes/) (posted by [amerkurev](https://github.com/amerkurev/))
 - [Union Type Expression](https://python.study/p/union-type-expr-in-python/) (posted by [amerkurev](https://github.com/amerkurev/))
 - [Function Overloading in Python](https://python.study/p/function-overloading-in-python/) (posted by [amerkurev](https://github.com/amerkurev/))
 - [Keyword-Only and Positional-Only Parameters in Function](https://python.study/p/keyword-and-positional-only-params-in-func/) (posted by [amerkurev](https://github.com/amerkurev/))
