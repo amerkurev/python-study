@@ -1,3 +1,15 @@
+:root {
+    --article-max-width: 760px;
+
+    --code-background-color: rgb(245, 245, 245);
+    --code-text-color: rgb(41, 41, 41);
+
+    &[data-scheme="dark"] {
+        --code-background-color: #272822;
+        --code-text-color: rgba(255, 255, 255, 0.9);
+    }
+}
+
 .related-content {
     article {
         height: auto;
@@ -13,11 +25,11 @@
 }
 
 article.main-article {
-    max-width: 760px;
+    max-width: var(--article-max-width);
 }
 
 .article-list--compact.links {
-    max-width: 760px;
+    max-width: var(--article-max-width);
 
     article {
         .article-image {
@@ -31,7 +43,7 @@ article.main-article {
 form.search-form,
 .search-result,
 .archives-group {
-    max-width: 760px;
+    max-width: var(--article-max-width);
 }
 
 .subsection-list {
@@ -49,5 +61,13 @@ form.search-form,
                 box-shadow: none;
             }
         }
+    }
+}
+
+.article-content {
+    code {
+        font-size: .9em;
+        font-weight: 500;
+        border-radius: 0;
     }
 }
