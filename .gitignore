@@ -16,3 +16,6 @@ assets/jsconfig.json
 
 # System
 .DS_Store
+
+# Banners
+content/banners/
