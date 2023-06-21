@@ -3,6 +3,7 @@ title: String methods to remove prefixes and suffixes
 description: "New string methods in Python 3.9 that you'll definitely find useful."
 slug: string-methods-to-remove-prefixes-suffixes
 date: 2023-05-31 00:00:00+0000
+image: cover.jpeg
 categories:
     - Language
 tags:

@@ -3,6 +3,7 @@ title: Generator Expressions
 description: Sometimes creating a list in Python can be harmful, and it's better to use Generator Expressions.
 slug: generator-expressions
 date: 2023-05-14 00:00:00+0000
+image: cover.jpeg
 categories:
     - Language
 tags:

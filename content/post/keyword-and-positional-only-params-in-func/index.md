@@ -3,6 +3,7 @@ title: Keyword-Only and Positional-Only Parameters in Function
 description: "Don't know what def func(a, /, b, *, c) signature means in Python? OK, read this short explanation."
 slug: keyword-and-positional-only-params-in-func
 date: 2023-05-23 00:00:00+0000
+image: cover.jpeg
 categories:
     - Language
 tags:

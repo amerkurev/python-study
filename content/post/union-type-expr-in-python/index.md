@@ -3,6 +3,7 @@ title: Union Type Expression
 description: Another useful use of the | operator in Python 3.10.
 slug: union-type-expr-in-python
 date: 2023-05-29 00:00:00+0000
+image: cover.jpeg
 categories:
     - Language
 tags:

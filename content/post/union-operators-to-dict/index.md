@@ -3,6 +3,7 @@ title: Union Operators To dict
 description: A new way to merge two dictionaries in Python 3.9.
 slug: union-operators-to-dict
 date: 2023-05-15 00:00:00+0000
+image: cover.jpeg
 categories:
     - Language
 tags:

@@ -3,6 +3,7 @@ title: "Python Variable Scopes: Understanding Local, Global, and Nonlocal"
 description: A simple description of all variable scopes in Python.
 slug: variable-scopes-local-global-nonlocal
 date: 2023-05-21 00:00:00+0000
+image: cover.jpeg
 categories:
     - Language
 tags:

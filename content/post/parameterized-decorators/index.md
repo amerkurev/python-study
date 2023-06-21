@@ -3,6 +3,7 @@ title: Parameterized Decorators
 description: Class-based parameterized decorators look better than function-based ones because they reduce the number of nested function layers.
 slug: parameterized-decorators
 date: 2023-05-16 00:00:00+0000
+image: cover.jpeg
 categories:
     - Language
 tags:

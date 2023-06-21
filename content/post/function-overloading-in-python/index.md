@@ -3,6 +3,7 @@ title: Function Overloading in Python
 description: "No function overloading in Python? No problem! Achieving overloading's effect with the singledispatch decorator."
 slug: function-overloading-in-python
 date: 2023-05-24 00:00:00+0000
+image: cover.jpeg
 categories:
     - Standard Library
 tags:
