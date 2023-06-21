@@ -7,6 +7,8 @@
 #icon = "home"
 #newtab = true
 
+# get icons here: https://tabler-icons.io
+
 [[social]]
 identifier = "github"
 name = "GitHub"
@@ -23,6 +25,24 @@ url = "https://t.me/pystudy"
 
 [social.params]
 icon = "brand-telegram"
+
+
+[[social]]
+identifier = "medium"
+name = "Medium"
+url = "https://medium.com/@apps.merkurev"
+
+[social.params]
+icon = "brand-medium"
+
+
+[[social]]
+identifier = "linkedin"
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/amerkurev"
+
+[social.params]
+icon = "brand-linkedin"
 
 
 [[social]]
