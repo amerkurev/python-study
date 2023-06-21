@@ -25,6 +25,9 @@ Here are the places where you can subscribe to us:
 
 ## List of posts
 
+### 2023-06
+- [Dataclasses in Python](https://python.study/p/dataclasses-in-python/) (posted by [amerkurev](https://github.com/amerkurev/))
+
 ### 2023-05
 - [String methods to remove prefixes and suffixes](https://python.study/p/string-methods-to-remove-prefixes-suffixes/) (posted by [amerkurev](https://github.com/amerkurev/))
 - [Union Type Expression](https://python.study/p/union-type-expr-in-python/) (posted by [amerkurev](https://github.com/amerkurev/))
