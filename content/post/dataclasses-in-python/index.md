@@ -3,6 +3,7 @@ title: Dataclasses in Python
 description: Learn about the different ways to create data classes in Python and choose the best approach for your needs.
 slug: dataclasses-in-python
 date: 2023-06-21 00:00:00+0000
+image: cover.jpeg
 categories:
     - Standard Library
     - Packages
