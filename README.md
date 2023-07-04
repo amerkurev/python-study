@@ -25,6 +25,9 @@ Here are the places where you can subscribe to us:
 
 ## List of posts
 
+### 2023-07
+- [Download large file in Python with beautiful progress bar](https://python.study/p/download-large-file-in-python-with-progress-bar/) (posted by [amerkurev](https://github.com/amerkurev/))
+
 ### 2023-06
 - [Dataclasses in Python](https://python.study/p/dataclasses-in-python/) (posted by [amerkurev](https://github.com/amerkurev/))
 
