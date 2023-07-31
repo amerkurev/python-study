@@ -123,6 +123,7 @@ print(book.title)  # Learning Python
 ```
 
 But don't be afraid or forget about `__slots__`.
-Use it in simple cases where there is no inheritance, few attributes, and the attributes are simple types, like numbers.
+Use it in simple cases where there is no inheritance, few attributes, and the attributes are simple types, like numbers, especially when the number of your instances is in the hundreds of thousands or millions.
 At the very least, you'll get a noticeable memory saving.
+
 For more detailed information about `__slots__`, you can refer to this great article: [Using Slots](https://wiki.python.org/moin/UsingSlots).
