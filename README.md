@@ -26,6 +26,7 @@ Here are the places where you can subscribe to us:
 ## List of posts
 
 ### 2023-07
+- [Don't forget about \_\_slots__ in Python!](https://python.study/p/dont-forget-about-slots-in-python/) (posted by [amerkurev](https://github.com/amerkurev/))
 - [Exploring Python Collections with ABC and Goose Typing](https://python.study/p/exploring-python-collections-with-abc-goose-typing/) (posted by [amerkurev](https://github.com/amerkurev/))
 - [Download large file in Python with beautiful progress bar](https://python.study/p/download-large-file-in-python-with-progress-bar/) (posted by [amerkurev](https://github.com/amerkurev/))
 
