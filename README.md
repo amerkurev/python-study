@@ -25,6 +25,9 @@ Here are the places where you can subscribe to us:
 
 ## List of posts
 
+### 2023-09
+- [Subtle Aspects of Python's Generator Function](https://python.study/p/subtle-aspects-of-pythons-generator-function/) (posted by [amerkurev](https://github.com/amerkurev/))
+
 ### 2023-07
 - [Don't forget about \_\_slots__ in Python!](https://python.study/p/dont-forget-about-slots-in-python/) (posted by [amerkurev](https://github.com/amerkurev/))
 - [Exploring Python Collections with ABC and Goose Typing](https://python.study/p/exploring-python-collections-with-abc-goose-typing/) (posted by [amerkurev](https://github.com/amerkurev/))
