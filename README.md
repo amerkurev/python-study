@@ -26,6 +26,7 @@ Here are the places where you can subscribe to us:
 ## List of posts
 
 ### 2023-09
+- [Creating a Powerful Interactive CLI App with ChatGPT in Python](https://python.study/p/creating-interactive-cli-app-with-chatgpt-in-python/) (posted by [amerkurev](https://github.com/amerkurev/))
 - [Subtle Aspects of Python's Generator Function](https://python.study/p/subtle-aspects-of-pythons-generator-function/) (posted by [amerkurev](https://github.com/amerkurev/))
 
 ### 2023-07
