@@ -170,9 +170,9 @@ Human: Hello, Robot! Can you fix the code example below?
 
 Robot: Certainly! It looks like there's a small error in the code. The closing quotation mark for the string is incorrect. Here's the corrected code:
 
-print('multiline mode')  # it's Python
+       print('multiline mode')  # it's Python
 
-Now the code should work properly and print 'multiline mode'.
+       Now the code should work properly and print 'multiline mode'.
 ```
 
 ### v4. history
