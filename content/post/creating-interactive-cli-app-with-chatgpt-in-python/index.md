@@ -32,12 +32,11 @@ Let's start with a very simple and naive version of our CLI application:
 
 ```python
 import os
-import openai
+from openai import OpenAI  # pip install "openai>=1.7.0"
 
 # Please remember to export your API key to environment variables.
 # $> export OPENAI_API_KEY=...
-openai.api_key = os.getenv('OPENAI_API_KEY')
-# openai.organization = 'org-...'
+client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 openai_model = 'gpt-3.5-turbo'
 
 messages = [
@@ -50,7 +49,7 @@ while True:
     if message:
         messages.append({'role': 'user', 'content': message})
         # https://platform.openai.com/docs/guides/chat/chat-vs-completions
-        chat_completion = openai.ChatCompletion.create(
+        chat_completion = client.chat.completions.create(
             model=openai_model,
             messages=messages,
             # Temperature: 0.5 to 0.7 for a balance
@@ -83,12 +82,11 @@ By simply replacing the standard Python `input` with the `prompt` from the `prom
 
 ```python
 import os
-import openai
+from openai import OpenAI  # pip install "openai>=1.7.0"
 
 from prompt_toolkit import prompt
 
-openai.api_key = os.getenv('OPENAI_API_KEY')
-# openai.organization = 'org-...'
+client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 openai_model = 'gpt-3.5-turbo'
 
 messages = [
@@ -99,7 +97,7 @@ while True:
     message = prompt('Human: ')  # only one change
     if message:
         messages.append({'role': 'user', 'content': message})
-        chat_completion = openai.ChatCompletion.create(
+        chat_completion = client.chat.completions.create(
             model=openai_model,
             messages=messages,
             temperature=.5,
@@ -124,14 +122,13 @@ Or `Escape` followed by `Enter`.
 
 ```python
 import os
-import openai
+from openai import OpenAI  # pip install "openai>=1.7.0"
 
 from prompt_toolkit import prompt
 from prompt_toolkit.cursor_shapes import CursorShape
 from prompt_toolkit import print_formatted_text, HTML
 
-openai.api_key = os.getenv('OPENAI_API_KEY')
-# openai.organization = 'org-...'
+client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 openai_model = 'gpt-3.5-turbo'
 
 messages = [
@@ -150,7 +147,7 @@ while True:
     message = prompt(get_prompt, cursor=CursorShape.BLOCK, multiline=True)
     if message:
         messages.append({'role': 'user', 'content': message})
-        chat_completion = openai.ChatCompletion.create(
+        chat_completion = client.chat.completions.create(
             model=openai_model,
             messages=messages,
             temperature=.5,
@@ -191,7 +188,7 @@ Another difference from previous versions: the `PromptSession` class will be use
 
 ```python
 import os
-import openai
+from openai import OpenAI  # pip install "openai>=1.7.0"
 
 from prompt_toolkit import PromptSession
 from prompt_toolkit.history import FileHistory
@@ -199,8 +196,7 @@ from prompt_toolkit.auto_suggest import AutoSuggestFromHistory
 from prompt_toolkit.cursor_shapes import CursorShape
 from prompt_toolkit import print_formatted_text, HTML
 
-openai.api_key = os.getenv('OPENAI_API_KEY')
-# openai.organization = 'org-...'
+client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 openai_model = 'gpt-3.5-turbo'
 
 messages = [
@@ -228,7 +224,7 @@ while True:
 
     if message:
         messages.append({'role': 'user', 'content': message})
-        chat_completion = openai.ChatCompletion.create(
+        chat_completion = client.chat.completions.create(
             model=openai_model,
             messages=messages,
             temperature=.5,
@@ -248,7 +244,7 @@ Let's implement this feature by adding a full-screen dialog to select the ChatGP
 
 ```python
 import os
-import openai
+from openai import OpenAI  # pip install "openai>=1.7.0"
 
 from prompt_toolkit import PromptSession
 from prompt_toolkit.history import FileHistory
@@ -257,8 +253,8 @@ from prompt_toolkit.cursor_shapes import CursorShape
 from prompt_toolkit import print_formatted_text, HTML
 from prompt_toolkit.shortcuts import radiolist_dialog
 
-openai.api_key = os.getenv('OPENAI_API_KEY')
-# openai.organization = 'org-...'
+client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+openai_model = 'gpt-3.5-turbo'
 
 messages = [
     {'role': 'system', 'content': 'You are a helpful assistant.'},
@@ -281,7 +277,8 @@ openai_model = radiolist_dialog(
     values=[
         ('gpt-3.5-turbo', 'gpt-3.5-turbo'),
         ('gpt-3.5-turbo-16k', 'gpt-3.5-turbo-16k'),
-        ('gpt-4', 'gpt-4')
+        ('gpt-4', 'gpt-4'),
+        ('gpt-4-1106-preview', 'gpt-4-1106-preview (turbo)'),
     ]
 ).run()
 
@@ -295,7 +292,7 @@ while openai_model:
 
     if message:
         messages.append({'role': 'user', 'content': message})
-        chat_completion = openai.ChatCompletion.create(
+        chat_completion = client.chat.completions.create(
             model=openai_model,
             messages=messages,
             temperature=.5,
@@ -318,7 +315,7 @@ This version of the script can already be used on a daily basis without any disc
 ```python
 import asyncio
 import os
-import openai
+from openai import AsyncOpenAI
 
 from prompt_toolkit import PromptSession
 from prompt_toolkit.history import FileHistory
@@ -328,8 +325,7 @@ from prompt_toolkit import print_formatted_text, HTML
 from prompt_toolkit.shortcuts import radiolist_dialog
 from prompt_toolkit.patch_stdout import patch_stdout
 
-openai.api_key = os.getenv('OPENAI_API_KEY')
-# openai.organization = 'org-...'
+aclient = AsyncOpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
 def get_prompt():
     return [
@@ -345,7 +341,8 @@ def choose_openai_model() -> str:
         values=[
             ('gpt-3.5-turbo', 'gpt-3.5-turbo'),
             ('gpt-3.5-turbo-16k', 'gpt-3.5-turbo-16k'),
-            ('gpt-4', 'gpt-4')
+            ('gpt-4', 'gpt-4'),
+            ('gpt-4-1106-preview', 'gpt-4-1106-preview (turbo)'),
         ]
     ).run()
 
@@ -372,7 +369,7 @@ async def main(openai_model: str):
             if message:
                 messages.append({'role': 'user', 'content': message})
                 print_formatted_text(name)
-                chat_completion = await openai.ChatCompletion.acreate(
+                chat_completion = await aclient.chat.completions.create(
                     model=openai_model,
                     messages=messages,
                     temperature=.5,
@@ -381,9 +378,9 @@ async def main(openai_model: str):
 
                 reply = ''
                 async for chunk in chat_completion:
-                    content = chunk['choices'][0]['delta'].get('content', '')
+                    content = chunk.choices[0].delta.content
                     print_formatted_text(content, end='')
-                    reply += content
+                    reply += content or ''
 
                 print_formatted_text('')
                 messages.append({'role': 'assistant', 'content': reply})
